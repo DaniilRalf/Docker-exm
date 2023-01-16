@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 8000
 
 # CMD определяет среду выполнения
-CMD [ "node", "server.js" ]
+CMD [ "node", "index.js" ]
