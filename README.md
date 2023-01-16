@@ -1,4 +1,5 @@
 # Установка Docker 
+(https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)\
 Настройка пакетов, установка необходимфх зависимостей
 ```shell
 sudo apt-get update
