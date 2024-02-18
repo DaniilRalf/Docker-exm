@@ -1,4 +1,4 @@
-## 33:57
+## 40:00
 
 Статус сервиса
 ```shell
@@ -8,9 +8,12 @@ service docker status
 ```shell
 docker pull <image_name>
 ```
-Запуск или скачивание и запуск image и запуск контейнера
+Запуск или (скачивание и запуск image) \
+Результатом запуска images - является создание и запуск контейнера
 ```shell
-docker run <image_name>
+docker run <image_name>      (СТАНДАРТ)
+docker run -d <image_name>   (НЕ ЗАНИМАЯ КОНСОЛЬ)
+docker start <container_id>  (ЗАПУСК СОЗДАННОГО НО НЕ РАБОТАЮЩЕГО КОНТЕЙНЕРА)
 ```
 ---
 
